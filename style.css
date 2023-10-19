@@ -772,7 +772,7 @@ li .img img{
 .nav-mb::after,
 .nav-mb::before{
     transform: translate(-50%)  ;
-    top: 50%;
+  /*  top: 50%; */
     transition: 0.3s;
 }
 
@@ -783,7 +783,7 @@ li .img img{
 }
 
 .nav-mb.clicked::before{
-   transform: translate(-50%) rotate(-45deg) ;
+   transform: translate(-50%) rotate(-50deg) ;
 }
 .nav-mb.clicked::after{
     transform: translate(-50%)  rotate(45deg) ;
